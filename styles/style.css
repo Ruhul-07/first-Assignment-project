@@ -395,7 +395,7 @@ body{
 
 /* footer area start here */
 
-.footer-container{
+#footer-container{
     width: 1140px;
     height: 314px;
     border: 2px solid red;
