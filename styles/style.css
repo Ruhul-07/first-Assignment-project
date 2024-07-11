@@ -18,9 +18,8 @@ body{
 /* banner section start */
 
 .banner-area-container{
-    max-width: 1540px;
+    max-width: 1440px;
     height: 652px;
-    border: 2px solid red;
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +28,6 @@ body{
 .banner-content-area{
     width: 998px;
     height: 582px;
-    border: 2px solid green;
     margin-top: 26px;
     margin-right: 244px;
     margin-bottom: 44px;
@@ -44,14 +42,12 @@ body{
 .banner-content-img{
     width: 240px;
     height: 240px;
-    border: 2px solid red;
 }
 
 .banner-content-text{
     width: 998px;
     height: 310px;
     margin-top: 32px;
-    border: 2px solid red ;
     text-align: center;
 }
 .banner-content-text h1{
@@ -84,7 +80,6 @@ body{
 .main-area-container{
     width: 1140px;
     height: 1395px;
-    border:2px solid red;
     display: flex;
     margin: 0 auto;
     padding: 80px 97px;
@@ -92,7 +87,6 @@ body{
 .main-area-content{
     width: 946px;
     height: 1235px;
-    border:2px solid red;
     text-align: center;
     padding: 48px;
 }
@@ -111,14 +105,11 @@ body{
 .content-box-1{
     width: 850px;
     height: 240px;
-    border: 2px solid red;
     display: flex;
     margin-bottom: 80px;
-    margin-top: 100px;
-    
+    margin-top: 100px;   
 }
 .content-box-text{
-    border: 2px solid red;
     width: 50%;
     text-align: left; 
 }
@@ -148,24 +139,18 @@ body{
     color: #0D1321;
 }
 .content-box-img{
-    border: 2px solid red;
     width: 50%;
     background-image: url(../assets/Layer_1.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-
-
 .content-box-2{
     width: 850px;
     height: 240px;
-    border: 2px solid red;
     display: flex;
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px;   
 }
 .content-box2-text{
-    border: 2px solid red;
     width: 50%;
     text-align: left; 
 }
@@ -195,24 +180,19 @@ body{
     color: #0D1321;
 }
 .content-box-2-img{
-    border: 2px solid red;
     width: 50%;
     background-image: url(../assets/Layer_3.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-
 .content-box-3{
     width: 850px;
     height: 240px;
-    border: 2px solid red;
     display: flex;
     margin-bottom: 50px;
-    margin-top: 80px;
-    
+    margin-top: 80px;   
 }
 .content-box-3-text{
-    border: 2px solid red;
     width: 50%;
     text-align: left; 
 }
@@ -242,7 +222,6 @@ body{
     color: #0D1321;
 }
 .content-box-3-img{
-    border: 2px solid red;
     width: 50%;
     background-image: url(../assets/Layer_4.png);
     background-repeat: no-repeat;
@@ -254,7 +233,6 @@ body{
 .my-inpiration-container{
     width: 1140px;
     height: 777px;
-    border: 2px solid red;
     margin: 0 auto;
     text-align: center;
 }
@@ -263,7 +241,6 @@ body{
     width: 1140px;
     height: 640px;
     padding: 32px;
-    border: 2px solid red;
 }
 .my-inpiration-container h3{
     font-family: Azeret Mono;
@@ -283,7 +260,6 @@ body{
 .mycurrent-target-container{
     width: 1140px;
     height: 464px;
-    border: 2px solid red;
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
@@ -398,7 +374,6 @@ body{
 #footer-container{
     width: 1140px;
     height: 314px;
-    border: 2px solid red;
     margin: 0 auto;
     padding: 64px 48px;
     display: flex;
@@ -409,11 +384,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 20px;
+
 }
 .footer-content{
     width: 1044px;
     height: 166px;
-    border: 2px solid red;
     text-align: center;
 }
 
@@ -446,4 +421,23 @@ body{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600px;
+}
+
+.footer-icon-area{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: cennter;
+    padding: 32px 150px;
+    margin: 0 auto;
+}
+.name{
+    width: 50%;
+}
+.icons{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30px;
 }
